@@ -75,6 +75,15 @@ form {
         font-size: medium;
     }
 
+    h1 {
+        color: #ffffff;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-left: 5px;
+    }
+
     div {
         display: flex;
         width: 100%;
