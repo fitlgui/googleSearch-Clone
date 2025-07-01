@@ -24,27 +24,27 @@ O objetivo é replicar a experiência de busca do Google, com ênfase em:
 
 > 📺 O projeto foi demonstrado em vídeo conforme exigido pelo CS50W.  
 > A URL do vídeo foi enviada no momento da submissão e contém **timestamps** detalhados.
+> 
 
 ## 📁 Estrutura do Projeto
 
-📁 /
+📦 /
 ├── assets/
-│   └── images/
-│       ├── googleIcon.svg
-│       └── googleTextLogo.svg
+│ └── images/
+│ ├── googleIcon.svg # Ícone do Google
+│ └── googleTextLogo.svg # Logotipo de texto do Google
 │
 ├── pages/
-│   ├── advancedSearch/
-│   │   ├── index.html # Pagina de Busca Avançada
-│   │   └── styles.css 
-│   │
-│   └── imagesSearch/
-│       ├── index.html # Pagina de Busca por Imagens
-│       └── styles.css 
+│ ├── advancedSearch/
+│ │ ├── index.html # Página de busca avançada
+│ │ └── styles.css # Estilos específicos da busca avançada
+│ │
+│ └── imagesSearch/
+│ ├── index.html # Página de busca por imagens
+│ └── styles.css # Estilos específicos da busca de imagens
 │
-├── index.html            # Página principal
-├── styles.css            # Estilo da página principal
-
+├── index.html # Página principal de busca
+├── styles.css # Estilo global da página principal
 
 ## 🚀 Como Testar
 
