@@ -1,0 +1,70 @@
+body {
+    background-color: #222222;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    color: rgb(126, 31, 31);
+    font-family: Arial, sans-serif;
+    font-size: smaller;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #302f2f;
+}
+
+section {
+    font-family: Arial, sans-serif;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    color: white;
+
+    form {
+        width: 33%;
+        display: flex; 
+        flex-direction: column;
+
+        div {
+            display: flex;
+            height: 30px;
+            margin-bottom: 10px;
+
+            label {
+                width: 300px;
+            }
+            
+            input {
+                background: #222222;
+                border: 1px solid gray;
+                color: white;
+                text-indent: 10px;
+                margin-left: 10px;
+                width: 100%;
+            }
+        }
+
+        .button {
+            width: 100%;
+            height: 30px;
+            background-color: #392bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            font-size: smaller;
+        }
+
+    }
+}
